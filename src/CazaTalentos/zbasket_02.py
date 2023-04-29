@@ -1,12 +1,13 @@
+
 import  numpy as np
 
-np.random.seed(102191)
+np.random.seed(100049)
 
 #calcula cuantos encestes logra un jugador con indice de enceste prob
 #haciendo qyt tiros libres
 
-def ftirar(prob, qty):
-  return sum(np.random.rand(qty) < prob)
+def ftirar(prob, qty):  
+    return sum(np.random.rand(qty) < prob)
 
 
 

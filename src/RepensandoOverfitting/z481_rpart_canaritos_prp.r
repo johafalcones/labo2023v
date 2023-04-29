@@ -6,7 +6,7 @@ require("data.table")
 require("rpart")
 require("rpart.plot")
 
-setwd("X:\\gdrive\\austral2023v\\" )  #establezco la carpeta donde voy a trabajar
+setwd("C:\\Users\\johan\\OneDrive\\Escritorio\\Johanna\\MaestriaCienciasDatos\\PrimerAño\\II Cuatrim\\LabImplem1" )  #establezco la carpeta donde voy a trabajar
 
 #cargo el dataset
 dataset  <- fread( "./datasets/dataset_pequeno.csv")
